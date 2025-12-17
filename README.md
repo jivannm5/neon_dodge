@@ -1,16 +1,29 @@
-# Neon Dodge - Proyecto de Juego Web Minimalista
+# Neon Dodge - Propuesta de Desarrollo Indie
 
-## 📝 Propuesta del Proyecto
-**Neon Dodge** es un juego de acción arcade minimalista desarrollado en HTML5 y Vanilla JavaScript. El objetivo es controlar un cubo de neón que debe esquivar una lluvia interminable de proyectiles enemigos. La estética es oscura con colores vibrantes para resaltar la jugabilidad rápida.
+Descripción de la Propuesta
+**Neon Dodge** es una propuesta de videojuego web minimalista del género "Endless Runner Vertical". El concepto central es la **simplicidad y la reacción rápida**. Se busca eliminar distracciones visuales complejas para centrarse puramente en la habilidad del jugador (skill-based).
 
-### 🎮 Cómo Jugar
-- **Objetivo:** Sobrevivir el mayor tiempo posible esquivando los enemigos rojos.
-- **Controles:**
-  - `Flecha Izquierda` / `A`: Mover a la izquierda.
-  - `Flecha Derecha` / `D`: Mover a la derecha.
+El juego está diseñado para ser ejecutado directamente en el navegador sin instalaciones, utilizando tecnologías web estándar.
 
-### 🚀 Tecnologías Utilizadas
-- **HTML5 Canvas:** Para el renderizado de gráficos.
-- **CSS3:** Para el estilo de la interfaz.
-- **JavaScript (ES6):** Lógica del juego y control de eventos.
+Mecánicas de Juego
+* **Core Loop:** El jugador controla un avatar de luz que debe esquivar obstáculos que caen a velocidades variables.
+* **Controles:** Movimiento lateral simple (Flechas / A-D).
+* **Progresión:** La dificultad es infinita; el objetivo es superar la puntuación máxima (High Score).
+* **Feedback:** * *Visual:* Efectos de brillo (Glow) utilizando del Canvas API.
+
+Ficha Técnica
+* **Lenguaje:** JavaScript (ES6 Vanilla).
+* **Renderizado:** HTML5 Canvas API.
+* **Audio:** Web Audio API (Osciladores sintetizados, sin archivos externos).
+* **Estilo:** CSS3 Flexbox para UI minimalista.
+
+Jugar en Línea (Demo)
+El proyecto está desplegado y jugable en GitHub Pages:
+https://github.com/jivannm5/neon_dodge
+
+
+### Estructura del Proyecto
+* `index.html`: Estructura del DOM y Canvas.
+* `style.css`: Estilos visuales dark/neon.
+* `script.js`: Lógica del Game Loop, detección de colisiones y sintetizador de audio.
 
