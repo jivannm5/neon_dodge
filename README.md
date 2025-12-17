@@ -19,7 +19,7 @@ Ficha Técnica
 
 Jugar en Línea (Demo)
 El proyecto está desplegado y jugable en GitHub Pages:
-https://github.com/jivannm5/neon_dodge
+https://jivannm5.github.io/neon_dodge/
 
 
 ### Estructura del Proyecto
